@@ -13,4 +13,12 @@ class Redirect extends Model {
 		'updated_by',
 	];
 
+	public static function boot() {
+		parent::boot();
+
+		static::saving(function($model)  {
+			$model->url_hash = $model->url_hash ?? md5($model->url);
+		});
+	}
+
 }
