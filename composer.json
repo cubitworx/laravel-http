@@ -1,6 +1,6 @@
 {
 	"name": "cubitworx/laravel-http",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.0",
 	"description": "Http request/response functionality for Laravel apps",
 	"keywords": ["laravel", "http", "request", "response"],
 	"license": "MIT",
